@@ -1,0 +1,19 @@
+body{
+	background:url("../images/1.jpg") no-repeat;
+	background-size:cover;
+}
+#clockimgdiv{
+	text-align:center;
+	height:100vh;
+	position:relative;
+}
+#clockimg, #hourimg, #minimg, #seimg{
+	position:absolute;
+	max-height:100%;
+	max-width:100%;
+	margin:auto;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+}
